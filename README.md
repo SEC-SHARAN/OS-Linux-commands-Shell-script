@@ -81,7 +81,9 @@ cat > file22
 
 
 cut -c1-3 file11
+
 ## OUTPUT
+
 ![OUTPUT](./img/img6.png)
 
 
@@ -93,7 +95,9 @@ cut -d "|" -f 1 file22
 
 
 cut -d "|" -f 2 file22
+
 ## OUTPUT
+
 ![OUTPUT](./img/img8.png)
 
 
@@ -505,20 +509,26 @@ ls file1
  ![OUTPUT](./img/img57.png)
 
 echo $?
+
 ## OUTPUT 
+
  ![OUTPUT](./img/img58.png)
 
 ./one
 bash: ./one: Permission denied
  
 echo $?
+
 ## OUTPUT 
+
   ![OUTPUT](./img/img59.png)
 
 abcd
  
 echo $?
+
  ## OUTPUT
+ 
 ![OUTPUT](./img/img59.png)
 
  
@@ -558,7 +568,9 @@ fi
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
+
 ## OUTPUT
+
 ![OUTPUT](./img/img61.png)
 
 
@@ -586,7 +598,9 @@ echo “Sorry, you are not the owner of the /etc/passwd file”
 fi
  ```
 ./psswdperm.sh
+
 ## OUTPUT
+
 ![OUTPUT](./img/img62.png)
 
 # check if with file location
@@ -633,7 +647,9 @@ fi
 ```
 
 ./ifnested.sh 
+
 ## OUTPUT
+
 ![OUTPUT](./img/img63.png)
 
 
@@ -680,6 +696,7 @@ $ chmod 755 iftest.sh
 $ ./iftest.sh 
 
 ## OUTPUT
+
 ![OUTPUT](./img/img64.png)
 
 # check if a file
@@ -731,6 +748,7 @@ $ chmod 755 ifnested.sh
 $ ./ifnested.sh 
 
 ## OUTPUT
+
 ![OUTPUT](./img/img65.png)
 
 # looking for a possible value using elif
@@ -759,7 +777,9 @@ fi
 $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
+
 ## OUTPUT
+
 ![OUTPUT](./img/img66.png)
 
 
@@ -776,7 +796,9 @@ fi
 ```
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
+
 ## OUTPUT
+
 ![OUTPUT](./img/img67.png)
 
 # using the case command
@@ -812,7 +834,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+
  ## OUTPUT
+ 
 ![OUTPUT](./img/img69.png) 
 
 cat untiltest.sh 
@@ -877,7 +901,9 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+
  ## OUTPUT
+ 
   ![OUTPUT](./img/img72.png) 
 
 cat forin3.sh 
@@ -890,7 +916,9 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+
  ## OUTPUT
+ 
   ![OUTPUT](./img/img73.png) 
 
 
@@ -908,6 +936,7 @@ $ chmod 755 forin1.sh
 $ ./forin1.sh
 
 ## OUTPUT
+
   ![OUTPUT](./img/img74.png) 
 
 cat forinfile.sh 
@@ -933,6 +962,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+
   ![OUTPUT](./img/img75.png) 
 
 
@@ -947,7 +977,9 @@ done
 ```
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
+
 ## OUTPUT
+
   ![OUTPUT](./img/img76.png) 
 
 cat forctype1.sh 
@@ -960,8 +992,11 @@ echo "$a - $b"
 done
 ```
 $ chmod 755 forctype.sh
+
 $ ./forctype1.sh 
+
 ## OUTPUT
+
   ![OUTPUT](./img/img77.png) 
 
 cat fornested1.sh 
@@ -980,7 +1015,9 @@ done
 $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
+
  ## OUTPUT
+
   ![OUTPUT](./img/img78.png) 
 
  
@@ -1006,6 +1043,7 @@ $ ./forbreak.sh
     
 
  ## OUTPUT
+ 
 ![OUTPUT](./img/img79.png)
 
 cat forcontinue.sh 
@@ -1027,7 +1065,9 @@ echo "The for loop is completed“
 $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
+
 ## OUTPUT
+
  ![OUTPUT](./img/img80.png)
 
 cat exread.sh 
@@ -1042,7 +1082,9 @@ echo "Hello $name, welcome to my program. "
 $ chmod 755 exread.sh 
  
 $ ./exread.sh 
+
 ## OUTPUT
+
  ![OUTPUT](./img/img81.png)
 
 
@@ -1062,6 +1104,7 @@ $ chmod 755 exread1.sh
 $ ./exread1.sh 
 
  ## OUTPUT
+ 
  ![OUTPUT](./img/img81.png)
 
 cat funcex.sh
@@ -1081,11 +1124,15 @@ fi
 ```
 
  ./funcex.sh 
+ 
 ## OUTPUT
+
 ![OUTPUT](./img/img82.png)
  
  ./funcex.sh 1 2
+ 
 ## OUTPUT
+
  ![OUTPUT](./img/img83.png)
 
 cat argshift.sh
@@ -1100,7 +1147,9 @@ $ chmod 777 argshift.sh
 
 
 $ ./argshift.sh 1 2 3
+
  ## OUTPUT
+ 
   ![OUTPUT](./img/img84.png)
 
  cat argshift1.sh
@@ -1118,8 +1167,11 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
+
 ## OUTPUT
+
 $ ./argshift1.sh 1 2 3
+
    ![OUTPUT](./img/img85.png)
 
 cat argshift.sh
@@ -1133,6 +1185,7 @@ done
 set +x
 ```
 ## OUTPUT
+
  ./argshift.sh 1 2 3
     ![OUTPUT](./img/img86.png)
 
@@ -1165,7 +1218,9 @@ bcdfghj
 ubcdfghj
 ```
 awk -f nc.awk data.dat
+
 ## OUTPUT 
+
 ![OUTPUT](./img/img87.png)
 
 cat > palindrome.sh
@@ -1194,6 +1249,7 @@ else
 fi
 ```
 ## OUTPUT 
+
 ![OUTPUT](./img/img88.png)
 
 
